@@ -1,20 +1,20 @@
-package ConceptBased;
+package PracticeBased;
 
 public class Strings {
 	public static void main (String args[]) {
 		
-		String p = "hello";
-		String  k = p.concat("world");
+		String p = "mist";
+		String  k = p.concat("college");
 		System.out.println(p);
 		System.out.println(k);
 		System.out.println("*********************");
-		System.out.println(p.equals("hello"));
-		System.out.println(p.equalsIgnoreCase("HELLO"));
+		System.out.println(p.equals("mist"));
+		System.out.println(p.equalsIgnoreCase("Mist"));
 		
 		String s = "praveen";
 		System.out.println(s.charAt(4));
 		System.out.println(s.contains("l"));
-		String o = "hii this is,praveen kumar podela";
+		String o = "the ramayan written, by vaalmiki";
 		System.out.println(o.substring(11,19));
 		System.out.println(o.toUpperCase());
 		System.out.println(o.toLowerCase());
